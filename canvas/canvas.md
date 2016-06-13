@@ -2,7 +2,7 @@
 
 ```javascript
 
-    var canvas = document.getElementById("canvas");
+    var canvas = document.getElementById(h5);
     var context = canvas.getContext("2d");
 
     //填充的样式
