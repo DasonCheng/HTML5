@@ -14,7 +14,6 @@ window.onload=function(){
 	radius=Math.round(window_width*4/5/114)-1;
 	margin_top=Math.round(window_height*2/5);
 	margin_left=Math.round((window_width-(radius+1)*114)/2);
-	console.log(window_width+'-'+window_height+'-'+radius+'-'+margin_top+'-'+margin_left);
 
 	var canvas=document.getElementById('canvas');
 	var context=canvas.getContext('2d');
